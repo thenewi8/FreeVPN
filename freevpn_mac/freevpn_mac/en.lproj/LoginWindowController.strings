@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "请登陆"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Login Please";
+
+/* Class = "NSTextFieldCell"; title = "用户名/邮箱："; ObjectID = "bH1-2U-Rlc"; */
+"bH1-2U-Rlc.title" = "Account/Email：";
+
+/* Class = "NSButtonCell"; title = "注册"; ObjectID = "cb9-yk-pd2"; */
+"cb9-yk-pd2.title" = "Register";
+
+/* Class = "NSTextFieldCell"; title = "密码："; ObjectID = "fpA-Nh-Q5q"; */
+"fpA-Nh-Q5q.title" = "Password：";
+
+/* Class = "NSButtonCell"; title = "登陆"; ObjectID = "uGq-of-cyG"; */
+"uGq-of-cyG.title" = "Login";

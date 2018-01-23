@@ -1,0 +1,165 @@
+/* 
+  Localizable.strings
+  freevpn
+
+  Created by ligulfzhou on 7/17/16.
+  Copyright © 2016 ligulfzhou. All rights reserved.
+*/
+homeNaviBarText = "Free VPN";
+abountNaviBarText = "Abount";
+
+CFBundleDisplayName = "Free VPN";
+
+"Connected" = "Connected";
+"Disconnected" = "Disconnected";
+"Connecting" = "Connecting";
+"Disconnecting" = "Disconnecting";
+
+alertTitle = "Attension, Rate Needed";
+alertMsg = "Rate To Select from All VPN Servers";
+ok = "OK, Go to Rate";
+no = "No, Two Servers Are Enough";
+
+//HomeViewController
+vpnCopyTips = "tips: click to copy";
+vpnServerLocationLabel = "California, US";
+timeToRestart = "Time To Reboot";
+everyTwoHours = "Every Two Hours";
+tapToConnect = "tap to connect";
+vpnSetting = "VPN Setting";
+connectingText = "connecting...";
+disconnectingText = "disconnecting...";
+tapToDisconnect = "tap to disconnect";
+commentToUnlockAllVpnServers = "Rate To Unlock all VPN";
+takeMeToRateApp = "Take Me";
+rateToGetAnotherWeek = "Rate To Get Another Week";
+rateWithFiveStar = "Rate With Five Star";
+getAnotherWeek = "A Week Reward";
+alertRateAppTitle = "Thanks Sincerely";
+alertRateAppText = "You Will Unlock All VPN Servers";
+deadlineTime = "Deadline Time";
+checkIn = "Daily Check In";
+checkInToGetFreeHours = "Get Free Hours";
+checkInFailed = "Check In Failed, Please Try Again";
+congratulationsOnCheckIn = "You Get Free Hours: ";
+"Your Have Already Checked In" = "Your Have Already Checked In";
+payError = "If not Get Time of this Plan, Contact me at ligulfzhou53@gmail.com";
+payError2 = "Pay Error";
+paySuccess = "We Receive Your Order, ";
+from = "Time limit extended from";
+to = "to";
+enjoyIt = ", You Can Now Enjoy it";
+
+alertNeedRateAppTitle = "Attention";
+alertNeedRateAppText = "After Rate Our App, You Can Use All VPN Servers";
+
+//ServerViewController
+vpnServerList = "VPN Servers";
+selectVpn = "select";
+pingTips = "When Connected to VPN, ping latency is not believable";
+switchVPN = "Switching VPN...";
+
+//AboutViewController
+aboutUs = "About Us";
+
+//AboutUsViewController
+appName = "Free VPN";
+version = "Version";
+qq = "QQ";
+website = "Website";
+
+//HandbookViewController
+handbook = "Handbook";
+vpnCannotConnect = "VPN Cannot Connect";
+vpnDisconnectedWithoutReason = "VPN Disconnect Without Reason";
+whyBuyPlans = "Why to Buy Plans";
+howToSupportYou = "How To Support Me";
+vpnCannotConnectReason = "1: Try connect use 3G and wifi, if it is truly cannot connect;\n\n2: Free user only can connect to vpn once at the same time\n\n3: Try another vpn server;\n\n4: Send me a feedback, Thanks;";
+vpnDisconnectWithoutReasonReason = "1: This vpn server has too many people connected with, please try another one;\n\n2: Maybe your network change like switching from 4G to WIFI";
+buyPlanReasons = "1: Paid users has no speed limit; \n\n2: Paid users can connect multi devices at the same time(visit out website for details), our app of android and mac will come out soon";
+
+bestSearchEngine = "Best Search Engine";
+favoriteMusicSite = "Biggest Media Site";
+biggestSocialNetwork = "Biggest Social Network";
+
+userSetting = "User Setting";
+switchUser = "Switch User";
+changePassword = "Change Password";
+bindEmail = "Bind Email";
+
+//AddFeedbackViewController
+thanksForYourFeedback = "THANKS FOR YOUR FEEDBACK";
+yourName = "Your Name";
+yourQQ = "Your QQ or Email";
+yourFeedback = "Your Feedback";
+submitFeedback = "Submit";
+noIWantToCloseTheWindow = "No! Just Close This Page";
+thanksForSubmitFeedback = "Your Feedback is Submited, Thanks very much";
+
+forIphoneTips = "If you want to connect vpn on your iphone, it will be much easier";
+downloadLabelText = "1: please install cert, click to download";
+connectLabelText = "2: click to connect";
+
+share = "Share";
+feedback = "Feedback";
+rateOurApp = "Rate Our App";
+freeVpnShareText = "Free VPN, share with you! Link: https://itunes.apple.com/us/app/xiang-zi-youvpn-yi-kuan-liu/id1131521365?l=zh&ls=1&mt=8";
+
+homeTab = "Home";
+settingTab = "Setting";
+naviTab = "Navi";
+handbookTab = "Handbook";
+aboutTab = "About";
+planTab = "Plans";
+
+connectingToast = "connecting...";
+connectedToast = "You Are Connected";
+disconnectingToast = "disconnecting...";
+disconnectedToast = "disconnected";
+errorToast = "some error occur";
+fetchVpnFirstToast = "please fetch vpn first, then copy";
+copiedToast = "copied";
+
+//PlanViewController
+"planNavi Title" = "Plans";
+"半年套餐"  = "12 Months Plan";
+"1 Month Plan" = "1 Month Plan";
+"3 Months Plan" = "3 Months Plan";
+"6 Months Plan" = "6 Months Plan";
+"12 Months Plan" = "12 Months Plan";
+"1 Month Plan，No Traffic Limit" = "1 Month Plan，No Traffic Limit";
+"3 Months Plan，No Traffic Limit" = "3 Months Plan，No Traffic Limit";
+"6 Months Plan，No Traffic Limit" = "6 Months Plan，No Traffic Limit";
+"12 Months Plan，No Traffic Limit" = "12 Months Plan，No Traffic Limit";
+saleHeader = "The Longer Plan, The Lower Average Cost!";
+saleFooter = "All Plans Has NO TRAFFIC LIMIT";
+notToOrderTooFrequent = "Please Not To Order Too Frequent";
+plan1 = "1 Month Plan，1 Device";
+plan2 = "3 Months Plan，2 Devices";
+plan3 = "6 Months Plan，2 Devices";
+plan4 = "12 Months Plan，3 Divices";
+
+//OrderViewController
+buyAt = "Buy at";
+noOrder = "No Orders";
+
+//SwitchVC
+yourPassword = "Your Password";
+yourNewPassword = "Your New Password";
+login = "Login";
+loginSuccess = "Login Success";
+loginFailed = "Login Failed";
+changePasswordFailed = "Change Password Failed";
+changePasswordSuccess = "Change Password Success";
+changePassword = "Change Password";
+currentUsername = "Current Logined Username";
+passwordTips = "Auto generated account, password is the same to username";
+
+//BindEmailVC
+emailTips = "When Forget Your Account, re-acquire it Using Email at Our Website";
+yourEmail = "Your Email";
+bindEmail = "Bind Email";
+bindEmailFailed = "Bind Email Failed";
+bindEmailSuccess = "Bind Email Success";
+
+"See You 2017" = "See You 2017";

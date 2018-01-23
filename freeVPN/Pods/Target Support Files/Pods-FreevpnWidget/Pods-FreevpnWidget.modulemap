@@ -1,0 +1,6 @@
+framework module Pods_FreevpnWidget {
+  umbrella header "Pods-FreevpnWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}

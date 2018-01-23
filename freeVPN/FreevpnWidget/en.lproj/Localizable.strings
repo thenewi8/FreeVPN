@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  freevpn
+
+  Created by zhou ligang on 03/12/2016.
+  Copyright © 2016 ligulfzhou. All rights reserved.
+*/
+
+homeNaviBarText = "Free VPN";
+abountNaviBarText = "Abount";
+
+CFBundleDisplayName = "Free VPN";
+
+"Connected" = "Connected";
+"Disconnected" = "Disconnected";
+"Connecting" = "Connecting";
+"Disconnecting" = "Disconnecting";
+
+alertTitle = "Attension, Rate Needed";
+alertMsg = "Rate To Select from All VPN Servers";
+ok = "OK, Go to Rate";
+no = "No, Two Servers Are Enough";

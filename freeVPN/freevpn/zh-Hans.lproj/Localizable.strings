@@ -1,0 +1,166 @@
+/* 
+  Localizable.strings
+  freevpn
+
+  Created by ligulfzhou on 7/17/16.
+  Copyright © 2016 ligulfzhou. All rights reserved.
+*/
+homeNaviBarText = "享自由VPN";
+abountNaviBarText = "关于";
+
+CFBundleDisplayName = "自由VPN";
+
+"Connected" = "已连接";
+"Disconnected" = "未连接";
+"Connecting" = "正在连接";
+"Disconnecting" = "正在断开";
+
+alertTitle = "注意，需要评价";
+alertMsg = "评价app才可以选择所有的vpn服务器";
+ok = "好的，去评价";
+no = "不了，两台就够了";
+
+//HomeViewController
+vpnCopyTips = "tips: 点击可复制喵~";
+vpnServerLocationLabel = "加州, 美国";
+timeToRestart = "下次重启";
+everyTwoHours = "每两个小时";
+tapToConnect = "点击连接";
+vpnSetting = "VPN设置";
+connectingText = "正在连接...";
+disconnectingText = "正在断开连接...";
+tapToDisconnect = "点击断开";
+commentToUnlockAllVpnServers = "好评解锁VPN";
+takeMeToRateApp = "马上去";
+rateWithFiveStar = "五星好评";
+getAnotherWeek = "再赠送一周";
+alertRateAppTitle = "谢谢您的评价";
+alertRateAppText = "您将解锁所有VPN线路";
+deadlineTime = "过期时间";
+checkIn = "每日签到";
+checkInToGetFreeHours = "签到送免费时长";
+checkInFailed = "签到失败, 请重试";
+"Your Have Already Checked In" = "您今天已经签到过了";
+congratulationsOnCheckIn = "您获得的免费小时数: ";
+payError = "如果没有加上套餐的时间, 请联系我: ligulfzhou53@gmail.com";
+payError2 = "支付失败";
+paySuccess = "我们已受到您的订单, ";
+from = "时间已延长, 从";
+to = "到";
+enjoyIt = ", 请享用";
+
+alertNeedRateAppTitle = "请先评价";
+alertNeedRateAppText = "评价之后能使用所有的vpn服务器";
+
+//ServerViewController
+vpnServerList = "VPN服务器";
+selectVpn = "选择";
+pingTips = "连接上vpn时的ping值延迟是不可信的";
+switchVPN = "正在切换VPN...";
+
+//AboutViewController
+aboutUs = "关于我们";
+
+//AboutUsViewController
+appName = "享自由VPN";
+version = "版本";
+qq = "qq";
+website = "官网";
+
+//HandbookViewController
+handbook = "手册";
+vpnCannotConnect = "VPN无法连接";
+vpnDisconnectedWithoutReason = "VPN无故断线";
+whyBuyPlans = "为什么要买套餐";
+howToSupportYou = "支持我";
+vpnCannotConnectReason = "1: 分辨使用3G和wifi连接, 查看是否都不能连接, 墙内容易被骚扰;\n\n2: 免费用户同时只能一个在线;\n\n3: 尝试连接另一台VPN服务器;\n\n4: 给我发送反馈, 十分感谢;";
+vpnDisconnectWithoutReasonReason = "1: vpn服务器连接人数过多, 请尝试换另外的服务器;\n\n2: 自身网络环境的变化, 如4G切WIFi";
+buyPlanReasons = "1: 付费用户没有网速限制; \n\n2: 付费用户可以同时多个设备在线(详情请看官网), 我们的android和mac版也将陆续上线";
+
+
+bestSearchEngine = "最好的搜索引擎";
+favoriteMusicSite = "最大的视频网站";
+biggestSocialNetwork = "最大的社交网络";
+
+userSetting = "用户设置";
+switchUser = "切换用户";
+changePassword = "修改密码";
+bindEmail = "绑定邮箱";
+
+//AddFeedbackViewController
+thanksForYourFeedback = "感谢您的反馈";
+yourName = "您的称呼";
+yourQQ = "您的qq或邮箱";
+yourFeedback = "反馈信息";
+submitFeedback = "提交";
+noIWantToCloseTheWindow = "不了! 关闭该页面";
+thanksForSubmitFeedback = "您的反馈已提交， 十分感谢";
+
+forIphoneTips = "tips: 如果是给本机使用，则更加简单快捷哦~";
+downloadLabelText = "1: 请先安装证书， 点我下载";
+connectLabelText = "2: 点击链接";
+
+share = "分享";
+feedback = "反馈";
+rateOurApp = "给我好评吧";
+freeVpnShareText = "免费又好用的vpn，推荐给你使用! 下载链接: https://itunes.apple.com/us/app/xiang-zi-youvpn-yi-kuan-liu/id1131521365?l=zh&ls=1&mt=8";
+
+homeTab = "首页";
+settingTab = "设置";
+naviTab = "导航";
+handbookTab = "手册";
+aboutTab = "关于";
+planTab = "购买套餐";
+
+connectingToast = "正在连接，请稍等";
+connectedToast = "您已成功连接";
+disconnectingToast = "正在断开连接";
+disconnectedToast = "已断开连接";
+errorToast = "呃，出现点错误";
+fetchVpnFirstToast = "请先获取vpn信息，再复制";
+copiedToast = "已复制";
+
+//PlanViewController
+"planNavi Title" = "购买套餐";
+"半年套餐" = "半年套餐";
+"1 Month Plan" = "单月套餐";
+"3 Months Plan" = "季套餐";
+"6 Months Plan" = "半年套餐";
+"12 Months Plan" = "一年套餐";
+"1 Month Plan，No Traffic Limit" = "一个月使用时长，流量不限";
+"3 Months Plan，No Traffic Limit" = "三个月使用时长，流量不限";
+"6 Months Plan，No Traffic Limit" = "六个月使用时长，流量不限";
+"12 Months Plan，No Traffic Limit" = "十二个月使用时长，流量不限";
+saleHeader = "购买的套餐越长, 平均价格越低哦!";
+saleFooter = "所有套餐都没有流量限制";
+notToOrderTooFrequent = "请不要频繁下单";
+plan1 = "1个月时长，1个设备";
+plan2 = "3个月时长，2个设备";
+plan3 = "6个月时长，2个设备";
+plan4 = "12个月时长， 3个设备";
+
+
+//OrderViewController
+buyAt = "购于";
+noOrder = "无下单";
+
+//SwitchVC
+yourPassword = "您的密码";
+yourNewPassword = "您的新密码";
+login = "登录";
+loginSuccess = "登录成功";
+loginFailed = "登录失败";
+changePasswordFailed = "修改密码失败";
+changePasswordSuccess = "修改密码成功";
+changePassword = "修改密码";
+currentUsername = "当前登陆账号";
+passwordTips = "自动生成的账号的密码和用户名一致";
+
+//BindEmailVC
+emailTips = "如果忘记账号, 可以用email找回";
+yourEmail = "您的邮箱";
+bindEmail = "绑定邮箱";
+bindEmailFailed = "绑定邮箱失败";
+bindEmailSuccess = "绑定邮箱成功";
+
+"See You 2017" = "2017准时上线";

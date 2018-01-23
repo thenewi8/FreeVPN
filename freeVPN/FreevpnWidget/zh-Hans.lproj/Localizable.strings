@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  freevpn
+
+  Created by zhou ligang on 03/12/2016.
+  Copyright © 2016 ligulfzhou. All rights reserved.
+*/
+homeNaviBarText = "享自由VPN";
+abountNaviBarText = "关于";
+
+CFBundleDisplayName = "自由VPN";
+
+"Connected" = "已连接";
+"Disconnected" = "未连接";
+"Connecting" = "正在连接";
+"Disconnecting" = "正在断开";
+
+alertTitle = "注意，需要评价";
+alertMsg = "评价app才可以选择所有的vpn服务器";
+ok = "好的，去评价";
+no = "不了，两台就够了";

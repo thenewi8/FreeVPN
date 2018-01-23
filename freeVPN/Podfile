@@ -1,0 +1,35 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'freevpn' do
+    # pod 'RealmSwift', '~> 2.0'
+    #pod 'SVProgressHUD', '~> 2.0'
+    pod 'MBProgressHUD', '~> 1.0.0'
+    pod 'Alamofire', '~> 4.0'
+    pod 'SnapKit', '~> 3.0'
+    #pod 'SnapKit', '~> 0.19'
+    #pod 'DZNEmptyDataSet'
+    #pod 'Toast-Swift'
+    #pod 'Toast-Swift', '~> 1.3'
+    #pod 'Firebase'
+    #pod 'Firebase/Core'
+    pod 'Firebase/AdMob'
+    #pod "PlainPing"
+end
+
+target 'FreevpnWidget' do
+    pod 'SnapKit', '~> 3.0'
+end
+
+target 'VPNKit' do 
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['SWIFT_VERSION'] = '3.0' # or '3.0'
+    end
+  end
+end
+

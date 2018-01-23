@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153BC813AABA46816EE10C95 /* Pods_freevpn_macUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20DCAC730E5D8BD6C05D1B6E /* Pods_freevpn_macUITests.framework */; };
+		273585C91DA1FD45003DF367 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273585C81DA1FD45003DF367 /* Server.swift */; };
+		275F21821D8D18CB002596BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F21811D8D18CB002596BB /* AppDelegate.swift */; };
+		275F21841D8D18CB002596BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275F21831D8D18CB002596BB /* Assets.xcassets */; };
+		275F21871D8D18CB002596BB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275F21851D8D18CB002596BB /* MainMenu.xib */; };
+		275F21921D8D18CB002596BB /* freevpn_macTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F21911D8D18CB002596BB /* freevpn_macTests.swift */; };
+		275F219D1D8D18CB002596BB /* freevpn_macUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F219C1D8D18CB002596BB /* freevpn_macUITests.swift */; };
+		2782CA481DE93B51006C63AF /* AppDelegate+Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2782CA471DE93B51006C63AF /* AppDelegate+Update.swift */; };
+		279647431DA28D0600DAD733 /* LoginWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279647411DA28D0600DAD733 /* LoginWindowController.swift */; };
+		279647491DA3D67000DAD733 /* LoginWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2796474B1DA3D67000DAD733 /* LoginWindowController.xib */; };
+		279EE8461DA637250041473D /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279EE8451DA637250041473D /* IAPHelper.swift */; };
+		279EE8481DA637AA0041473D /* PlanProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279EE8471DA637AA0041473D /* PlanProducts.swift */; };
+		279EE84A1DA6939C0041473D /* AppDelegate+Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279EE8491DA6939C0041473D /* AppDelegate+Plan.swift */; };
+		279EE84C1DA735D00041473D /* AppDelegate+VpnServers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279EE84B1DA735D00041473D /* AppDelegate+VpnServers.swift */; };
+		279EE84E1DA73D0E0041473D /* AppDelegate+User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279EE84D1DA73D0E0041473D /* AppDelegate+User.swift */; };
+		279EE8531DA750380041473D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279EE8521DA750380041473D /* Utils.swift */; };
+		27B3388C1DA20F0D00880E9C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27B3388E1DA20F0D00880E9C /* Localizable.strings */; };
+		27E2253C1DA0B69B004E78F1 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E2253B1DA0B69B004E78F1 /* NetworkExtension.framework */; };
+		27E225411DA0C124004E78F1 /* KeyChainUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E225401DA0C124004E78F1 /* KeyChainUtils.swift */; };
+		27E225431DA0CF3C004E78F1 /* AlamofireExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E225421DA0CF3C004E78F1 /* AlamofireExtension.swift */; };
+		28C9FDFB0049E947955D7669 /* Pods_freevpn_macTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0E3A12F80B2B5F93CB0EC2 /* Pods_freevpn_macTests.framework */; };
+		CE56AFCD7F7E980AE521E3D5 /* Pods_freevpn_mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1679EAE4755F1FC2D120E107 /* Pods_freevpn_mac.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		275F218E1D8D18CB002596BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 275F21761D8D18CB002596BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 275F217D1D8D18CB002596BB;
+			remoteInfo = freevpn_mac;
+		};
+		275F21991D8D18CB002596BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 275F21761D8D18CB002596BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 275F217D1D8D18CB002596BB;
+			remoteInfo = freevpn_mac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1679EAE4755F1FC2D120E107 /* Pods_freevpn_mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_freevpn_mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20DCAC730E5D8BD6C05D1B6E /* Pods_freevpn_macUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_freevpn_macUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		273585C81DA1FD45003DF367 /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Models/Server.swift; sourceTree = "<group>"; };
+		275F217E1D8D18CB002596BB /* freevpn_mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freevpn_mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		275F21811D8D18CB002596BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		275F21831D8D18CB002596BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		275F21861D8D18CB002596BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		275F21881D8D18CB002596BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275F218D1D8D18CB002596BB /* freevpn_macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freevpn_macTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		275F21911D8D18CB002596BB /* freevpn_macTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freevpn_macTests.swift; sourceTree = "<group>"; };
+		275F21931D8D18CB002596BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275F21981D8D18CB002596BB /* freevpn_macUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freevpn_macUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		275F219C1D8D18CB002596BB /* freevpn_macUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freevpn_macUITests.swift; sourceTree = "<group>"; };
+		275F219E1D8D18CB002596BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2782CA471DE93B51006C63AF /* AppDelegate+Update.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Update.swift"; sourceTree = "<group>"; };
+		2782CA491DE95DA2006C63AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		2782CA4A1DE95DA2006C63AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LoginWindowController.strings"; sourceTree = "<group>"; };
+		2782CA4B1DE95DA2006C63AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		279647411DA28D0600DAD733 /* LoginWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWindowController.swift; sourceTree = "<group>"; };
+		2796474A1DA3D67000DAD733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LoginWindowController.xib; sourceTree = "<group>"; };
+		279EE8451DA637250041473D /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IAPHelper.swift; path = Utils/IAPHelper.swift; sourceTree = "<group>"; };
+		279EE8471DA637AA0041473D /* PlanProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlanProducts.swift; path = Models/PlanProducts.swift; sourceTree = "<group>"; };
+		279EE8491DA6939C0041473D /* AppDelegate+Plan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Plan.swift"; sourceTree = "<group>"; };
+		279EE84B1DA735D00041473D /* AppDelegate+VpnServers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+VpnServers.swift"; sourceTree = "<group>"; };
+		279EE84D1DA73D0E0041473D /* AppDelegate+User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+User.swift"; sourceTree = "<group>"; };
+		279EE8521DA750380041473D /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Utils/Utils.swift; sourceTree = "<group>"; };
+		279EE8571DA93B6B0041473D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LoginWindowController.strings; sourceTree = "<group>"; };
+		27B3388D1DA20F0D00880E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		27B3388F1DA20F0F00880E9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		27E2253B1DA0B69B004E78F1 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		27E2253D1DA0B69B004E78F1 /* freevpn_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = freevpn_mac.entitlements; sourceTree = "<group>"; };
+		27E225401DA0C124004E78F1 /* KeyChainUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyChainUtils.swift; path = Utils/KeyChainUtils.swift; sourceTree = "<group>"; };
+		27E225421DA0CF3C004E78F1 /* AlamofireExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlamofireExtension.swift; path = Utils/AlamofireExtension.swift; sourceTree = "<group>"; };
+		2F0E3A12F80B2B5F93CB0EC2 /* Pods_freevpn_macTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_freevpn_macTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3019E784547BCCC94C4D20B5 /* Pods-freevpn_macTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freevpn_macTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-freevpn_macTests/Pods-freevpn_macTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A8567C912C7DF410E8B5204 /* Pods-freevpn_mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freevpn_mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-freevpn_mac/Pods-freevpn_mac.release.xcconfig"; sourceTree = "<group>"; };
+		4E1E9DCEBA2A90E78509D871 /* Pods-freevpn_mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freevpn_mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-freevpn_mac/Pods-freevpn_mac.debug.xcconfig"; sourceTree = "<group>"; };
+		649D27B6FD62C546DA5C05C5 /* Pods-freevpn_macUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freevpn_macUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-freevpn_macUITests/Pods-freevpn_macUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B0AA3A3E06486CF07B0F9BB6 /* Pods-freevpn_macUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freevpn_macUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-freevpn_macUITests/Pods-freevpn_macUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8B21B39AC028B3C450CB028 /* Pods-freevpn_macTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freevpn_macTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-freevpn_macTests/Pods-freevpn_macTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		275F217B1D8D18CB002596BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E2253C1DA0B69B004E78F1 /* NetworkExtension.framework in Frameworks */,
+				CE56AFCD7F7E980AE521E3D5 /* Pods_freevpn_mac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F218A1D8D18CB002596BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C9FDFB0049E947955D7669 /* Pods_freevpn_macTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F21951D8D18CB002596BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153BC813AABA46816EE10C95 /* Pods_freevpn_macUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273585C71DA1FCED003DF367 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				273585C81DA1FD45003DF367 /* Server.swift */,
+				279EE8471DA637AA0041473D /* PlanProducts.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		275F21751D8D18CB002596BB = {
+			isa = PBXGroup;
+			children = (
+				275F21801D8D18CB002596BB /* freevpn_mac */,
+				275F21901D8D18CB002596BB /* freevpn_macTests */,
+				275F219B1D8D18CB002596BB /* freevpn_macUITests */,
+				275F217F1D8D18CB002596BB /* Products */,
+				27CF59771DA0B5D100FC1FF2 /* Frameworks */,
+				DDDE64D37118F4C33F534891 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		275F217F1D8D18CB002596BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				275F217E1D8D18CB002596BB /* freevpn_mac.app */,
+				275F218D1D8D18CB002596BB /* freevpn_macTests.xctest */,
+				275F21981D8D18CB002596BB /* freevpn_macUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		275F21801D8D18CB002596BB /* freevpn_mac */ = {
+			isa = PBXGroup;
+			children = (
+				273585C71DA1FCED003DF367 /* Models */,
+				27E2253F1DA0C114004E78F1 /* Utils */,
+				27E2253D1DA0B69B004E78F1 /* freevpn_mac.entitlements */,
+				275F21811D8D18CB002596BB /* AppDelegate.swift */,
+				275F21831D8D18CB002596BB /* Assets.xcassets */,
+				275F21851D8D18CB002596BB /* MainMenu.xib */,
+				275F21881D8D18CB002596BB /* Info.plist */,
+				27B3388E1DA20F0D00880E9C /* Localizable.strings */,
+				279647411DA28D0600DAD733 /* LoginWindowController.swift */,
+				2796474B1DA3D67000DAD733 /* LoginWindowController.xib */,
+				279EE8491DA6939C0041473D /* AppDelegate+Plan.swift */,
+				279EE84B1DA735D00041473D /* AppDelegate+VpnServers.swift */,
+				279EE84D1DA73D0E0041473D /* AppDelegate+User.swift */,
+				2782CA471DE93B51006C63AF /* AppDelegate+Update.swift */,
+			);
+			path = freevpn_mac;
+			sourceTree = "<group>";
+		};
+		275F21901D8D18CB002596BB /* freevpn_macTests */ = {
+			isa = PBXGroup;
+			children = (
+				275F21911D8D18CB002596BB /* freevpn_macTests.swift */,
+				275F21931D8D18CB002596BB /* Info.plist */,
+			);
+			path = freevpn_macTests;
+			sourceTree = "<group>";
+		};
+		275F219B1D8D18CB002596BB /* freevpn_macUITests */ = {
+			isa = PBXGroup;
+			children = (
+				275F219C1D8D18CB002596BB /* freevpn_macUITests.swift */,
+				275F219E1D8D18CB002596BB /* Info.plist */,
+			);
+			path = freevpn_macUITests;
+			sourceTree = "<group>";
+		};
+		27CF59771DA0B5D100FC1FF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27E2253B1DA0B69B004E78F1 /* NetworkExtension.framework */,
+				1679EAE4755F1FC2D120E107 /* Pods_freevpn_mac.framework */,
+				2F0E3A12F80B2B5F93CB0EC2 /* Pods_freevpn_macTests.framework */,
+				20DCAC730E5D8BD6C05D1B6E /* Pods_freevpn_macUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27E2253F1DA0C114004E78F1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				279EE8521DA750380041473D /* Utils.swift */,
+				279EE8451DA637250041473D /* IAPHelper.swift */,
+				27E225421DA0CF3C004E78F1 /* AlamofireExtension.swift */,
+				27E225401DA0C124004E78F1 /* KeyChainUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		DDDE64D37118F4C33F534891 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E1E9DCEBA2A90E78509D871 /* Pods-freevpn_mac.debug.xcconfig */,
+				3A8567C912C7DF410E8B5204 /* Pods-freevpn_mac.release.xcconfig */,
+				3019E784547BCCC94C4D20B5 /* Pods-freevpn_macTests.debug.xcconfig */,
+				B8B21B39AC028B3C450CB028 /* Pods-freevpn_macTests.release.xcconfig */,
+				B0AA3A3E06486CF07B0F9BB6 /* Pods-freevpn_macUITests.debug.xcconfig */,
+				649D27B6FD62C546DA5C05C5 /* Pods-freevpn_macUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		275F217D1D8D18CB002596BB /* freevpn_mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275F21A11D8D18CB002596BB /* Build configuration list for PBXNativeTarget "freevpn_mac" */;
+			buildPhases = (
+				315AA1B877D063469C326DBC /* [CP] Check Pods Manifest.lock */,
+				275F217A1D8D18CB002596BB /* Sources */,
+				275F217B1D8D18CB002596BB /* Frameworks */,
+				275F217C1D8D18CB002596BB /* Resources */,
+				FDCD048A2A3DE17132B0392B /* [CP] Embed Pods Frameworks */,
+				1F30F7A8693312F20640A1C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = freevpn_mac;
+			productName = freevpn_mac;
+			productReference = 275F217E1D8D18CB002596BB /* freevpn_mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		275F218C1D8D18CB002596BB /* freevpn_macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275F21A41D8D18CB002596BB /* Build configuration list for PBXNativeTarget "freevpn_macTests" */;
+			buildPhases = (
+				FABA9BFD0B83E540D591BFBA /* [CP] Check Pods Manifest.lock */,
+				275F21891D8D18CB002596BB /* Sources */,
+				275F218A1D8D18CB002596BB /* Frameworks */,
+				275F218B1D8D18CB002596BB /* Resources */,
+				4255A45CD5CA9BC0A0593CC9 /* [CP] Embed Pods Frameworks */,
+				E788CF9361AF8A7C096F4026 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				275F218F1D8D18CB002596BB /* PBXTargetDependency */,
+			);
+			name = freevpn_macTests;
+			productName = freevpn_macTests;
+			productReference = 275F218D1D8D18CB002596BB /* freevpn_macTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		275F21971D8D18CB002596BB /* freevpn_macUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275F21A71D8D18CB002596BB /* Build configuration list for PBXNativeTarget "freevpn_macUITests" */;
+			buildPhases = (
+				9CAB7A42D12E7F22AA13602B /* [CP] Check Pods Manifest.lock */,
+				275F21941D8D18CB002596BB /* Sources */,
+				275F21951D8D18CB002596BB /* Frameworks */,
+				275F21961D8D18CB002596BB /* Resources */,
+				7580C8089333C484CCC86703 /* [CP] Embed Pods Frameworks */,
+				6D43579A887F2E353FFFAA7B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				275F219A1D8D18CB002596BB /* PBXTargetDependency */,
+			);
+			name = freevpn_macUITests;
+			productName = freevpn_macUITests;
+			productReference = 275F21981D8D18CB002596BB /* freevpn_macUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		275F21761D8D18CB002596BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "zhou ligang";
+				TargetAttributes = {
+					275F217D1D8D18CB002596BB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6HC9KR3XYX;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+						};
+					};
+					275F218C1D8D18CB002596BB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6HC9KR3XYX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 275F217D1D8D18CB002596BB;
+					};
+					275F21971D8D18CB002596BB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6HC9KR3XYX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 275F217D1D8D18CB002596BB;
+					};
+				};
+			};
+			buildConfigurationList = 275F21791D8D18CB002596BB /* Build configuration list for PBXProject "freevpn_mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 275F21751D8D18CB002596BB;
+			productRefGroup = 275F217F1D8D18CB002596BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				275F217D1D8D18CB002596BB /* freevpn_mac */,
+				275F218C1D8D18CB002596BB /* freevpn_macTests */,
+				275F21971D8D18CB002596BB /* freevpn_macUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		275F217C1D8D18CB002596BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F21841D8D18CB002596BB /* Assets.xcassets in Resources */,
+				27B3388C1DA20F0D00880E9C /* Localizable.strings in Resources */,
+				275F21871D8D18CB002596BB /* MainMenu.xib in Resources */,
+				279647491DA3D67000DAD733 /* LoginWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F218B1D8D18CB002596BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F21961D8D18CB002596BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F30F7A8693312F20640A1C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-freevpn_mac/Pods-freevpn_mac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		315AA1B877D063469C326DBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4255A45CD5CA9BC0A0593CC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-freevpn_macTests/Pods-freevpn_macTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D43579A887F2E353FFFAA7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-freevpn_macUITests/Pods-freevpn_macUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7580C8089333C484CCC86703 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-freevpn_macUITests/Pods-freevpn_macUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CAB7A42D12E7F22AA13602B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E788CF9361AF8A7C096F4026 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-freevpn_macTests/Pods-freevpn_macTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FABA9BFD0B83E540D591BFBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDCD048A2A3DE17132B0392B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-freevpn_mac/Pods-freevpn_mac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		275F217A1D8D18CB002596BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F21821D8D18CB002596BB /* AppDelegate.swift in Sources */,
+				279EE8481DA637AA0041473D /* PlanProducts.swift in Sources */,
+				27E225431DA0CF3C004E78F1 /* AlamofireExtension.swift in Sources */,
+				279EE84C1DA735D00041473D /* AppDelegate+VpnServers.swift in Sources */,
+				279EE84A1DA6939C0041473D /* AppDelegate+Plan.swift in Sources */,
+				2782CA481DE93B51006C63AF /* AppDelegate+Update.swift in Sources */,
+				279647431DA28D0600DAD733 /* LoginWindowController.swift in Sources */,
+				273585C91DA1FD45003DF367 /* Server.swift in Sources */,
+				279EE8531DA750380041473D /* Utils.swift in Sources */,
+				279EE8461DA637250041473D /* IAPHelper.swift in Sources */,
+				27E225411DA0C124004E78F1 /* KeyChainUtils.swift in Sources */,
+				279EE84E1DA73D0E0041473D /* AppDelegate+User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F21891D8D18CB002596BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F21921D8D18CB002596BB /* freevpn_macTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275F21941D8D18CB002596BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F219D1D8D18CB002596BB /* freevpn_macUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		275F218F1D8D18CB002596BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 275F217D1D8D18CB002596BB /* freevpn_mac */;
+			targetProxy = 275F218E1D8D18CB002596BB /* PBXContainerItemProxy */;
+		};
+		275F219A1D8D18CB002596BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 275F217D1D8D18CB002596BB /* freevpn_mac */;
+			targetProxy = 275F21991D8D18CB002596BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		275F21851D8D18CB002596BB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275F21861D8D18CB002596BB /* Base */,
+				2782CA491DE95DA2006C63AF /* zh-Hans */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2796474B1DA3D67000DAD733 /* LoginWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2796474A1DA3D67000DAD733 /* Base */,
+				279EE8571DA93B6B0041473D /* en */,
+				2782CA4A1DE95DA2006C63AF /* zh-Hans */,
+			);
+			name = LoginWindowController.xib;
+			sourceTree = "<group>";
+		};
+		27B3388E1DA20F0D00880E9C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27B3388D1DA20F0D00880E9C /* Base */,
+				27B3388F1DA20F0F00880E9C /* en */,
+				2782CA4B1DE95DA2006C63AF /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		275F219F1D8D18CB002596BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		275F21A01D8D18CB002596BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		275F21A21D8D18CB002596BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E1E9DCEBA2A90E78509D871 /* Pods-freevpn_mac.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = freevpn_mac/freevpn_mac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6HC9KR3XYX;
+				INFOPLIST_FILE = freevpn_mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ligulfzhou.freevpn-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		275F21A31D8D18CB002596BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8567C912C7DF410E8B5204 /* Pods-freevpn_mac.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = freevpn_mac/freevpn_mac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6HC9KR3XYX;
+				INFOPLIST_FILE = freevpn_mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ligulfzhou.freevpn-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		275F21A51D8D18CB002596BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3019E784547BCCC94C4D20B5 /* Pods-freevpn_macTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6HC9KR3XYX;
+				INFOPLIST_FILE = freevpn_macTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ligulfzhou.freevpn-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/freevpn_mac.app/Contents/MacOS/freevpn_mac";
+			};
+			name = Debug;
+		};
+		275F21A61D8D18CB002596BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B21B39AC028B3C450CB028 /* Pods-freevpn_macTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6HC9KR3XYX;
+				INFOPLIST_FILE = freevpn_macTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ligulfzhou.freevpn-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/freevpn_mac.app/Contents/MacOS/freevpn_mac";
+			};
+			name = Release;
+		};
+		275F21A81D8D18CB002596BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0AA3A3E06486CF07B0F9BB6 /* Pods-freevpn_macUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6HC9KR3XYX;
+				INFOPLIST_FILE = freevpn_macUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ligulfzhou.freevpn-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = freevpn_mac;
+			};
+			name = Debug;
+		};
+		275F21A91D8D18CB002596BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 649D27B6FD62C546DA5C05C5 /* Pods-freevpn_macUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6HC9KR3XYX;
+				INFOPLIST_FILE = freevpn_macUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ligulfzhou.freevpn-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = freevpn_mac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		275F21791D8D18CB002596BB /* Build configuration list for PBXProject "freevpn_mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275F219F1D8D18CB002596BB /* Debug */,
+				275F21A01D8D18CB002596BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275F21A11D8D18CB002596BB /* Build configuration list for PBXNativeTarget "freevpn_mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275F21A21D8D18CB002596BB /* Debug */,
+				275F21A31D8D18CB002596BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275F21A41D8D18CB002596BB /* Build configuration list for PBXNativeTarget "freevpn_macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275F21A51D8D18CB002596BB /* Debug */,
+				275F21A61D8D18CB002596BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275F21A71D8D18CB002596BB /* Build configuration list for PBXNativeTarget "freevpn_macUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275F21A81D8D18CB002596BB /* Debug */,
+				275F21A91D8D18CB002596BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 275F21761D8D18CB002596BB /* Project object */;
+}

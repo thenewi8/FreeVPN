@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  freevpn
+
+  Created by zhou ligang on 8/16/16.
+  Copyright © 2016 ligulfzhou. All rights reserved.
+*/
+"CFBundleDisplayName" = "享自由VPN";
+"CFBundleName" = "享自由VPN";
