@@ -1,4 +1,5 @@
 ssh $1 << EOF
+rm -rf strongswan*
 apt update
 
 apt install libpam-dev libssl-dev libgmp-dev build-essential ca-certificates
@@ -20,7 +21,10 @@ EOF
 scp fullchain.pem $1:/usr/local/etc/ipsec.d/certs/
 scp privkey.pem $1:/usr/local/etc/ipsec.d/private/
 scp ipsec.conf $1:/usr/local/etc/
+scp ipsec.secrets $1:/usr/local/etc/
+scp strongswan.conf $1:/usr/local/etc/
 scp eap-radius.conf $1:/usr/local/etc/strongswan.d/charon/
+scp xauth-eap.conf $1:/usr/local/etc/strongswan.d/charon/
 scp iptables-save.bk $1:
 
 ssh $1 << EOF
