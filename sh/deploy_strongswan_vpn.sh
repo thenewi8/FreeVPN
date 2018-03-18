@@ -4,7 +4,7 @@ apt update
 
 apt install libpam-dev libssl-dev libgmp-dev build-essential ca-certificates
 
-wget http://download.strongswan.org/strongswan.tar.gz
+wget http://download.strongswan.org/strongswan-5.5.3.tar.gz
 tar xzf strongswan.tar.gz
 cd strongswan-*
 
@@ -18,16 +18,11 @@ make
 make install
 EOF
 
-scp fullchain.pem $1:/usr/local/etc/ipsec.d/certs/
-scp privkey.pem $1:/usr/local/etc/ipsec.d/private/
-scp ipsec.conf $1:/usr/local/etc/
-scp ipsec.secrets $1:/usr/local/etc/
-scp strongswan.conf $1:/usr/local/etc/
-scp eap-radius.conf $1:/usr/local/etc/strongswan.d/charon/
-scp xauth-eap.conf $1:/usr/local/etc/strongswan.d/charon/
-scp iptables-save.bk $1:
+scp ss.tar.gz $1:/usr/local/etc/
 
 ssh $1 << EOF
 iptables-restore < iptables-save.bk
+cd /usr/local/etc/
+tar zxvf ss.tar.gz
 ipsec restart 
 EOF
